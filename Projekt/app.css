@@ -1,0 +1,107 @@
+/* Alla lister har ingen bullets */
+li{
+    list-style: none;
+  }
+
+/* Ändrar bodys background och font */
+body{
+background-color: #f5d9df;
+font-family: "Nunito", sans-serif;
+}
+/* Storleken på navbarens text samt tjockleken */
+
+.blurb h2 {
+color:#EA1C2C;
+font-weight:100;
+font-size: 2.5rem;
+}
+
+/* Texten i OM */
+.blurb p {
+color:#f498b8;
+font-weight: 100;
+font-size:1.125rem;
+line-height:2;
+} 
+/* OM */
+.content{
+margin-top:100px;
+margin-bottom: 100px;
+}
+
+/* Navbar */
+#mainNavbar{
+font-size: 1.5rem;
+font-weight: 100;
+}
+/* Länkarna är vita */
+#mainNavbar .nav-link{
+color:white
+}
+/* Hover röd när du håller musen över */
+#mainNavbar .nav-link:hover{
+color:#EA1C2C;
+}
+/* Själva text färgen på MINI_PLOCK är röd */
+#mainNavbar .navbar-brand{
+color: #EA1C2C;
+}   
+
+/* Span som är / i headingGroup blir röd */
+#headingGroup span{
+color:#EA1C2C
+}
+/* Storlek på H1 "MINI_PLOCK */
+#headingGroup h1{
+font-weight:100;
+font-size: 4rem;
+}
+
+/* Footer */
+footer{
+border: 2px solid black;
+margin-top: 205px;
+
+}
+
+/* Paj text */
+.paj p{
+display: inline-block;
+}
+
+/* headingGroup text */
+#headingGroup p{
+display: inline-block;
+}
+
+/* kontakt */
+#main-contact-form{
+margin: 200px;
+
+}
+
+/* Galleri texten */
+.bottom-left {
+color: red;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+position: absolute;
+bottom: 8px;
+left: 16px;
+}
+
+/* Morots icon */
+.fas{
+    color:orange;
+    font-size: 50px;
+    padding-left:10%;
+    margin: 10px;
+}
+
+/* Mindre än 1200px blir texten mindre  */
+@media(max-width: 1200px){
+#headingGroup h1{
+    font-weight:100;
+    font-size: 3rem;
+
+}
+}
